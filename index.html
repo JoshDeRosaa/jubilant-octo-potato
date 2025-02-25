@@ -1,57 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Sports Venues Gallery</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        h1 {
-            margin-bottom: 20px;
-        }
-        .gallery {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .gallery img {
-            height: 200px;
-            width: auto;
-            border: 2px solid #ccc;
-            border-radius: 10px;
-        }
-        .caption {
-            margin-top: 10px;
-            font-size: 14px;
-        }
-    </style>
+    <title>Building Tables Assignment</title>
 </head>
 <body>
-    <h1>Sports Venues Gallery</h1>
-    <div class="gallery">
-        <div>
-            <img src="adelaide_oval.jpg" alt="Adelaide Oval Cricket Ground">
-            <div class="caption">Adelaide Oval Cricket Ground</div>
-        </div>
-        <div>
-            <img src="baseball_park.jpg" alt="Baseball Park Structure">
-            <div class="caption">Baseball Park Structure</div>
-        </div>
-        <div>
-            <img src="aerial_stadium.jpg" alt="Aerial View of a Stadium">
-            <div class="caption">Aerial View of a Stadium</div>
-        </div>
-        <div>
-            <img src="chelsea_baseball_park.jpg" alt="Chelsea Baseball Park in London">
-            <div class="caption">Chelsea Baseball Park in London</div>
-        </div>
-        <div>
-            <img src="indoor_sports_stadium.jpg" alt="Indoor Sports Stadium">
-            <div class="caption">Indoor Sports Stadium</div>
-        </div>
-    </div>
+
+
+    <h2>Smartphone Data Comparison</h2>
+    
+    <table border="1">
+        <caption>Comparison of Three Smartphone Models</caption>
+        <tr>
+            <th>Feature</th>
+            <th>Phone A</th>
+            <th>Phone B</th>
+            <th>Phone C</th>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>$699</td>
+            <td>$799</td>
+            <td>$899</td>
+        </tr>
+        <tr>
+            <td>Battery Life (Hours)</td>
+            <td>20</td>
+            <td>22</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Camera Quality (MP)</td>
+            <td>12</td>
+            <td>48</td>
+            <td>108</td>
+        </tr>
+        <tr>
+            <td colspan="4"><strong>Note:</strong> Prices and specs are estimated values.</td>
+        </tr>
+    </table>
+
+
+    <h3>Conclusions Based on the Table:</h3>
+    <ul>
+        <li>Phone C has the highest camera quality but is also the most expensive.</li>
+        <li>Phone B has the best battery life, making it ideal for long usage.</li>
+        <li>Phone A is the most budget-friendly option with decent performance.</li>
+    </ul>
+
+
 </body>
 </html>
